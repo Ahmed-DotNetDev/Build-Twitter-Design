@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(5, 5, 5);
 }
 
 a {
@@ -26,7 +26,7 @@ a {
 header {
     display: flex;
     height: 100%;
-    width: 30%;
+    width: 26%;
     flex-direction: column;
     position: fixed;
     justify-content: space-between;
@@ -102,7 +102,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     padding: 8px 10px 8px 15px;
-    margin-left: -15px;
+    margin-left: -44px;
 
 }
 
@@ -134,4 +134,95 @@ a:hover {
     align-items: center;
     justify-content: center;
     margin-right: 10px;
+}
+
+main {
+    height: 100%;
+    width: 75%;
+    margin-left: 29%;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.main-slide {
+    width: 50%;
+    border-left: 1px solid rgb(39, 41, 43);
+    border-right: 1px solid rgb(39, 41, 43);
+}
+
+.home-bar {
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    padding: 0 12px;
+    position: sticky;
+    top: 0;
+
+}
+
+.create-new-tweet {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    padding: 4px 15px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+    padding-top: 4px;
+}
+
+.tweet-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.tweet-action ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: -70px;
+    padding-top: 25px;
+}
+
+.details input {
+    width: 100%;
+    border: none;
+    background-color: black;
+    height: 24px;
+    color: white;
+    outline: none;
+    font-size: 1.7rem;
+}
+
+.tweet-action ul li {
+    color: rgba(29, 156, 240, 0.827);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.tweet-button {
+    width: 24%;
+    height: 37px;
+    font-weight: 600;
+}
+
+li:hover{
+    font-size: 30px; 
+    transition: .5s;
 }
