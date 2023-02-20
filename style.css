@@ -17,7 +17,7 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .7rem;
     color: #fff;
     font-weight: 400;
     line-height: 20px;
@@ -42,20 +42,20 @@ header {
 }
 
 span {
-    letter-spacing: 1px;
+    letter-spacing: 1.1px;
 }
 
 .nav-links a {
     display: flex;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding: 8px 25px 8px 8px;
     width: fit-content;
 }
 
 .nav-links a i {
     margin-right: 13px;
-    font-size: 3rem;
+    font-size: 2.3rem;
 }
 
 .explore-span {
@@ -216,13 +216,87 @@ main {
     cursor: pointer;
 }
 
-.tweet-button {
-    width: 24%;
-    height: 37px;
+
+li:hover {
+    font-size: 30px;
+    transition: .5s;
+}
+
+
+.post-tweet {
+    width: 110px;
+    height: 38px;
+    background-color: rgb(29, 156, 240);
+    border-radius: 50px;
+    border: solid 1px black;
+    margin-top: 12px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.post-tweet:hover {
+    background-color: rgba(29, 156, 240, 0.856);
+    transition: .3s;
+}
+
+.feed-tweet {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100px;
+    cursor: pointer;
+    padding: 15px 12px 0px 2px;
+    border-top: 1px solid rgb(39, 41, 43);
+}
+
+.feed-tweet-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 12px;
+}
+
+ i {
+    color: rgb(119, 127, 134);
+    font-size: 2rem;
+}
+
+/* Becuase changin type i will change styling */
+.tweeter-name {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.tweeter-handle {
+    color: rgb(110, 118, 125);
+    margin-left: 4px;
+    font-size: 1.2rem;
+}
+
+.tweet-text {
+    padding-top: 10px;
+    color: white;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
-li:hover{
-    font-size: 30px; 
-    transition: .5s;
+.tweet-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tweet-icons {
+    display: flex;
+}
+
+.tweet-icons i {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
 }
