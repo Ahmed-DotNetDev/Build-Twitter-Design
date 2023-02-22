@@ -103,6 +103,7 @@ a:hover {
     justify-content: space-around;
     padding: 8px 10px 8px 15px;
     margin-left: -44px;
+    align-items: center;
 
 }
 
@@ -259,12 +260,11 @@ li:hover {
     margin-left: 12px;
 }
 
- i {
+i {
     color: rgb(119, 127, 134);
     font-size: 2rem;
 }
 
-/* Becuase changin type i will change styling */
 .tweeter-name {
     color: white;
     font-size: 1.2rem;
@@ -299,4 +299,186 @@ li:hover {
     justify-content: space-between;
     width: 100%;
     margin: 10px 0;
+}
+
+
+.footer-slide {
+    width: 50%;
+    padding: 0px 2%;
+}
+
+.search {
+    display: flex;
+    height: 55px;
+    max-width: 355px;
+    position: sticky;
+    top: 0%;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.search input {
+    background-color: rgba(27, 27, 27, 0.856);
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.trending {
+    background-color: rgba(27, 27, 27, 0.856);
+    width: 300px;
+    height: 470px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.trending h2 {
+    color: white;
+    padding: 13px 15px;
+}
+
+.trending-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+}
+
+.trending-category {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.trending-category span {
+    color: #616161d7;
+    margin-left: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.trending-category i {
+    padding-right: 20px;
+}
+
+.trending-item p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    padding-top: 9px;
+}
+
+.trending-item span {
+    color: #616161d7;
+    margin-left: 15px;
+    padding-top: 4px;
+    font-weight: 700;
+}
+
+.show-more {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(29, 156, 240);
+    margin-left: 15px;
+    padding-top: 23px;
+    align-items: center;
+}
+
+.show-more:hover {
+
+    font-size: 1.2rem;
+    transition: .4s;
+    font-weight: 300;
+    color: rgba(22, 135, 211, 0.966);
+    background-color: rgba(27, 27, 27, 0.856);
+    cursor: pointer;
+}
+
+.trending-category i:hover {
+    cursor: pointer;
+}
+
+.following {
+    background-color: rgba(27, 27, 27, 0.856);
+    width: 300px;
+    height: 300px;
+    margin-top: 17px;
+}
+
+
+.follow-person {
+    display: flex;
+    align-items: center;
+}
+
+.name-handle {
+    display: flex;
+}
+
+.following h2 {
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.follow-me {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.name-handle .name {
+    color: white;
+}
+
+.follow-button {
+    width: 80px;
+    height: 20px;
+    background-color: rgba(31, 163, 250, 0.575);
+    border-radius: 50px;
+    border: solid 1px black;
+    margin-top: 12px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 13px;
+    margin-left: 10px;
+}
+
+.name-handle {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.Profile-follow {
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+.final-follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
 }
